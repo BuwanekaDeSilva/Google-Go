@@ -1,11 +1,12 @@
 package main
 
 import (
-	"fmt"
-	"strings"
+	"fmt"     //I/O for console
+	"strings" //string package
 )
 
 func main() {
-	fmt.Println("Hello from Go!")
-	fmt.Println(strings.ToUpper("Hello really loud!"))
+	fmt.Println("Hello from Go!")                      //output
+	fmt.Println(strings.ToUpper("Hello really loud!")) //output
+
 }
